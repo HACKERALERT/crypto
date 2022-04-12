@@ -7,7 +7,7 @@
 
 package argon2
 
-import "golang.org/x/sys/cpu"
+import "github.com/HACKERALERT/sys/cpu"
 
 func init() {
 	useSSE4 = cpu.X86.HasSSE41
